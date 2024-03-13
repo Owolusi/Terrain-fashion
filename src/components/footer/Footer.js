@@ -1,9 +1,9 @@
 import React from 'react'
 import './Footer.css';
-import sectionmg1 from'../../assets/pics8.png';
+import sectionmg1 from'../../assets/first.png';
 import sectionmg2 from'../../assets/2nd.png';
 import sectionmg3 from'../../assets/3rd.png';
-import sectionmg4 from'../../assets/pics8.png';
+import sectionmg4 from'../../assets/fought.png';
 import {FaSearch} from 'react-icons/fa'
 import { FaFacebook} from 'react-icons/fa';
 import { FaTwitter} from 'react-icons/fa';
@@ -51,12 +51,10 @@ const Footer = () => {
 
             </div>
             <div className='footer_links'>
-          <p>
-          <a href="#home">Home</a></p>
-          <p><a href="#wgpt3">About</a></p>
-          <p><a href="#wgpt3">Terrain-Fashion</a></p>
-          <p><a href="#possibility">Services</a></p>
-          <p><a href="#features">Contact</a></p>
+          <p><a href="#aboutUs">About</a></p>
+          <p><a href="#wgpt3">TerrainFashion</a></p>
+          <p><a href="#services">Services</a></p>
+          <p><a href="#chatMe">Contact</a></p>
           <p><a href="#blog">Search</a>{FaSearch}</p>
   
             </div>

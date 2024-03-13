@@ -12,7 +12,7 @@ const section1 = () => {
 
             </div>
 
-            <div className='sectionOne_containerTwo'>
+            <div className='sectionOne_containerTwo' id='aboutUs'>
               <div className="containerTwo_content">
               <h2 className='aboutMe_text'>ABOUT ME</h2>
               <div className="sectionOne_containerTwo_Text">

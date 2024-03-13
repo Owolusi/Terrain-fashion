@@ -42,3 +42,50 @@
     font-size: 15px;
     font-weight: 100px;
 }
+
+@media screen and (max-width: 1050px){
+   
+    
+}
+
+@media screen and (max-width: 700px){
+
+    .footer_cont{
+        width: 651px;
+        margin: 12px 0px 0px 12px;
+    }
+    .footer_links{
+
+    }
+    .footer_links,p{     
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 16px;
+    margin: 0px -20px 11px 0px;
+    }
+
+  
+}
+
+
+@media screen and (max-width: 550px){
+    .footer_cont{
+        width: 410px;
+    } 
+}
+
+
+@media screen and (max-width: 350px){
+    .footer_cont{
+        width: 357px;
+    } 
+}
+
+
+
+
+
+
+
+

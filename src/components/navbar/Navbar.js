@@ -8,19 +8,16 @@ import {FaSearch} from 'react-icons/fa'
 
 const Menu=()=>(
   <>
-   <p><a href="#home">Home</a></p>
-          <p><a href="#wgpt3">About</a></p>
-          <p><a href="#wgpt3">Terrain-Fashion</a></p>
-
-          <p><a href="#possibility">Services</a></p>
-          <p><a href="#features">Contact</a></p>
+   <p><a href="#">Home</a></p>
+          <p><a href="#aboutUs">About</a></p>
+          <p><a href="#wgpt3">TerrainFashion</a></p>
+          <p><a href="#services">Services</a></p>
+          <p><a href="#chatMe">Contact</a></p>
           <p><a href="#blog">Search</a>{FaSearch}</p>
   
   </>
 
 )
-
-
 const Navbar = () => {
 
   const [toggleMenu, settoggleMenu]=useState(false)

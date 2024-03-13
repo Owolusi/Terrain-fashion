@@ -5,15 +5,9 @@ import PicTwo from "../../assets/pics6.png";
 import PicThree from "../../assets/pics7.png";
 import PicFour from "../../assets/pics8.png";
 
-
-
-
-
-
-
 const section2 = () => {
   return (
-    <div className='pics_container'>
+    <div className='pics_container' id='services'>
 
       <div className='color_container'>
         
@@ -53,11 +47,8 @@ const section2 = () => {
         wears with a sense 
         and dedication to craft</p>
         <h4>starting price of $200</h4>
-        </div>
-
-        
-      </div>
-      
+        </div>        
+      </div>      
       </div>
   )
 }
